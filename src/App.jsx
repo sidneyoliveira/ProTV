@@ -3,9 +3,17 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/effect-fade';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 
+import { Swiper, SwiperSlide } from 'swiper/react'
 import { EffectFade, Navigation, Pagination } from 'swiper/modules';
+import { register } from 'swiper/element/bundle'
+
+register();
 
 function App() {
   const data = [
