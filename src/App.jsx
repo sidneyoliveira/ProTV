@@ -9,10 +9,10 @@ import { EffectFade, Navigation, Pagination } from 'swiper/modules';
 
 function App() {
   const data = [
-  {id: '1', image: '/src/assets/a1.jpg'},
-  {id: '2', image: '/src/assets/a2.jpg'},
-  {id: '3', image: '/src/assets/a3.jpg'},
-  {id: '4', image: '/src/assets/a4.jpg'}
+  {id: '1', image: '/a1.jpg'},
+  {id: '2', image: '/a2.jpg'},
+  {id: '3', image: '/a3.jpg'},
+  {id: '4', image: '/a4.jpg'}
   ]
 
   return (
