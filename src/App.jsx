@@ -24,7 +24,7 @@ function App() {
   ]
 
   return (
-    <>
+    <div>
     <h1>SIDNEY </h1>
     <h1>SIDNEY </h1>
     <div className="container">
@@ -57,7 +57,7 @@ function App() {
       </Swiper>
 
     </div>
-    </>
+    </div>
   )
 }
 
