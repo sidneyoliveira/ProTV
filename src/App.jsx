@@ -17,6 +17,7 @@ function App() {
 
   return (
     <>
+    <h1>SIDNEY </h1>
     <div className="container">
       <Swiper
         loop={true}
